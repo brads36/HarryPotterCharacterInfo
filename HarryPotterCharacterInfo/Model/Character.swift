@@ -8,7 +8,12 @@
 
 import Foundation
 
-class Character: Codable {
+struct CharacterTopLevel: Codable {
+    let data: [Character]
+    
+}
+
+struct Character: Codable {
     let name: String
     let role: String
     let house: String

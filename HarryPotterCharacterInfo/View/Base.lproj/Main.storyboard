@@ -16,20 +16,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" barStyle="black" placeholder="Enter Character Full Name" translatesAutoresizingMaskIntoConstraints="NO" id="Dmo-3n-zaH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="79" width="414" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1Ph-Cx-lyQ"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Name)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4u-WV-1YH">
-                                <rect key="frame" x="20.5" y="194" width="373" height="41"/>
+                                <rect key="frame" x="20.5" y="209" width="373" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MVr-Tn-zSJ">
-                                <rect key="frame" x="20.5" y="335" width="373" height="182.5"/>
+                                <rect key="frame" x="20.5" y="350" width="373" height="182.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0uL-ta-V5E">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="182.5"/>
@@ -115,13 +115,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="L4u-WV-1YH" firstAttribute="top" secondItem="Dmo-3n-zaH" secondAttribute="bottom" constant="100" id="3HY-lo-tAm"/>
+                            <constraint firstItem="L4u-WV-1YH" firstAttribute="top" secondItem="Dmo-3n-zaH" secondAttribute="bottom" constant="80" id="3HY-lo-tAm"/>
                             <constraint firstItem="MVr-Tn-zSJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DZV-KK-dLH"/>
                             <constraint firstItem="L4u-WV-1YH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Oow-3g-t00"/>
                             <constraint firstItem="MVr-Tn-zSJ" firstAttribute="top" secondItem="L4u-WV-1YH" secondAttribute="bottom" constant="100" id="ZL2-zE-q1M"/>
                             <constraint firstItem="Dmo-3n-zaH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ca1-NN-q01"/>
                             <constraint firstItem="MVr-Tn-zSJ" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="fcF-iD-5qq"/>
-                            <constraint firstItem="Dmo-3n-zaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fe1-f0-HpN"/>
+                            <constraint firstItem="Dmo-3n-zaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="fe1-f0-HpN"/>
                             <constraint firstItem="L4u-WV-1YH" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="pGa-hc-Bb9"/>
                             <constraint firstItem="Dmo-3n-zaH" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="rCG-cH-JHb"/>
                         </constraints>
