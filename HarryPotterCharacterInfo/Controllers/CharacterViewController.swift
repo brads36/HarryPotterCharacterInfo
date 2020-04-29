@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CharacterViewController.swift
 //  HarryPotterCharacterInfo
 //
 //  Created by Bryce Bradshaw on 4/29/20.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CharacterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
 }
-
